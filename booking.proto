@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+import "google/protobuf/timestamp.proto";
+
 package booking_api;
 
 option go_package = "github.com/ChechenItza/protobufs/booking";
@@ -12,16 +14,16 @@ service Booking {
 message BookingInfo {
   int32 booking_id = 1;
   int32 resource_id = 2;
-  string start_at = 3;
-  string end_at = 4;
+  google.protobuf.Timestamp start_at = 3;
+  google.protobuf.Timestamp end_at = 4;
 }
 
 message CreateBookingRequest {
   int32 user_id = 1;
   int32 resource_id = 2;
   int32 resource_capacity = 3;
-  string start_at = 4;
-  string end_at = 5;
+  google.protobuf.Timestamp start_at = 4;
+  google.protobuf.Timestamp end_at = 5;
 }
 
 message CreateBookingResponse {
