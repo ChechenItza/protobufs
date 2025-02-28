@@ -31,7 +31,7 @@ message CreateBookingResponse {
 }
 
 message GetBookingsByResourceRequest {
-  repeated int32 resource_id = 1;
+  repeated int32 resource_ids = 1;
 }
 
 message GetBookingsByResourceResponse {
