@@ -1,4 +1,4 @@
-module github.com/ChechenItza/protobufs
+module github.com/ChechenItza/protobufs/v2
 
 go 1.23.1
 
