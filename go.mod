@@ -1,9 +1,9 @@
-module github.com/ChechenItza/protobufs/v2
+module github.com/ChechenItza/protobufs
 
 go 1.23.1
 
 require (
-	google.golang.org/grpc v1.70.0
+	google.golang.org/grpc v1.71.0
 	google.golang.org/protobuf v1.36.5
 )
 
