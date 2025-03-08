@@ -2,6 +2,8 @@ module github.com/ChechenItza/protobufs
 
 go 1.23.1
 
+retract v1.0.0
+
 require (
 	google.golang.org/grpc v1.71.0
 	google.golang.org/protobuf v1.36.5
