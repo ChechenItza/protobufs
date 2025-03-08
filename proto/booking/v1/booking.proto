@@ -4,7 +4,7 @@ import "google/protobuf/timestamp.proto";
 
 package booking.v1;
 
-option go_package = "github.com/ChechenItza/protobufs/booking";
+option go_package = "github.com/ChechenItza/protobufs/gen/go/booking/v1;bookingpb";
 
 service BookingService {
   rpc CreateBooking(CreateBookingRequest) returns (CreateBookingResponse);
